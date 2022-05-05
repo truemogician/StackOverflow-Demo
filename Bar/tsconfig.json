@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"declaration": true,
+		"baseUrl": "./",
+		"outDir": "./lib",
+		"incremental": true
+	},
+	"include": [
+		"src/**/*"
+	]
+}
